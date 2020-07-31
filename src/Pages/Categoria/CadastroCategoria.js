@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault/PageDefault';
@@ -83,11 +84,31 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PageDefault from '../../components/PageDefault/PageDefault';
+
+function CadastroCategoria() {
+  return (
+    <PageDefault>
+      <h1>Cadastro de Categoria</h1>
+
+      <form>
+
+        <label>
+          Nome da Categoria:
+          <input
+            type="text"
+          />
+        </label>
+>>>>>>> e15b193e78a695909f149a9b35063b93734a5c9c
 
         <button>
           Cadastrar
         </button>
       </form>
+<<<<<<< HEAD
       
 
       <ul>
@@ -99,6 +120,9 @@ function CadastroCategoria() {
           )
         })}
       </ul>
+=======
+
+>>>>>>> e15b193e78a695909f149a9b35063b93734a5c9c
 
       <Link to="/">
         Ir para home
