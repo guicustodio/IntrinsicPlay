@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 01b99fda4014cf2028b957c664c08800f777a7cc
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault/PageDefault';
@@ -87,37 +83,11 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
-<<<<<<< HEAD
-=======
-=======
-import React from 'react';
-import { Link } from 'react-router-dom';
-import PageDefault from '../../components/PageDefault/PageDefault';
-
-function CadastroCategoria() {
-  return (
-    <PageDefault>
-      <h1>Cadastro de Categoria</h1>
-
-      <form>
-
-        <label>
-          Nome da Categoria:
-          <input
-            type="text"
-          />
-        </label>
->>>>>>> e15b193e78a695909f149a9b35063b93734a5c9c
->>>>>>> 01b99fda4014cf2028b957c664c08800f777a7cc
 
         <button>
           Cadastrar
         </button>
       </form>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 01b99fda4014cf2028b957c664c08800f777a7cc
       
 
       <ul>
@@ -129,12 +99,6 @@ function CadastroCategoria() {
           )
         })}
       </ul>
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> e15b193e78a695909f149a9b35063b93734a5c9c
->>>>>>> 01b99fda4014cf2028b957c664c08800f777a7cc
 
       <Link to="/">
         Ir para home
